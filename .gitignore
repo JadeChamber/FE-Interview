@@ -1,0 +1,8 @@
+package-lock.json
+node_modules
+dist
+*.log
+.yalc
+yalc.lock
+test/**/*.js.map
+.DS_Store
