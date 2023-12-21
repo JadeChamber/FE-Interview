@@ -1,4 +1,5 @@
-import nextra from 'nextra'
+// import nextra from 'nextra'
+const nextra = require('nextra')
 
 const withNextra = nextra({
   theme: 'nextra-theme-docs',
@@ -10,7 +11,8 @@ const withNextra = nextra({
   defaultShowCopyCode: true
 })
 
-export default withNextra({
+// export default withNextra({
+module.exports = withNextra({
   reactStrictMode: true,
   eslint: {
     // ESLint behaves weirdly in this monorepo.
